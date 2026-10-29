@@ -9,13 +9,19 @@
 ║                                                                              ║
 ║                    ▀▄▀▄▀▄   T  O  O  L  K  I  T   ▄▀▄▀▄▀                     ║
 ║                                                                              ║
-║               222 tools  ·  22 categories  ·  eyes everywhere                ║
+║                222 tools  ·  22 categories  ·  trust nothing                 ║
 ║                                                                              ║
 ║             ◢◤  L A S T   S Y N C  ▸  2 9 · O C T · 2 0 2 6  ◥◣              ║
 ║                                                                              ║
 ╠══════════════════════════════════════════════════════════════════════════════╣
 ║          cam@legitbiz >>> $ open https://github.com/npcmillionaire           ║
 ╚══════════════════════════════════════════════════════════════════════════════╝
+
+  A personal field kit for open-source intelligence: 222 tools for tracing
+  usernames, emails, domains, networks, documents and public records, plus
+  the privacy gear to do it quietly. Each entry lists the tool, how to install
+  it, where it lives, and what it's for. Know your scope, stay legal, and
+  verify everything twice.
 
 ┌─ INSTALL ────────────────────────────────────────────────────────────────────┐
 │  pkg  →  sudo pacman -S <name>   (or: yay -S / BlackArch repo)               │

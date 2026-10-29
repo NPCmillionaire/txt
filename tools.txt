@@ -1,0 +1,360 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                                                                              ║
+║                  ██████╗  ███████╗ ██╗ ███╗   ██╗ ████████╗                  ║
+║                 ██╔═══██╗ ██╔════╝ ██║ ████╗  ██║ ╚══██╔══╝                  ║
+║                 ██║   ██║ ███████╗ ██║ ██╔██╗ ██║    ██║                     ║
+║                 ██║   ██║ ╚════██║ ██║ ██║╚██╗██║    ██║                     ║
+║                 ╚██████╔╝ ███████║ ██║ ██║ ╚████║    ██║                     ║
+║                  ╚═════╝  ╚══════╝ ╚═╝ ╚═╝  ╚═══╝    ╚═╝                     ║
+║                                                                              ║
+║                    ▀▄▀▄▀▄   T  O  O  L  K  I  T   ▄▀▄▀▄▀                     ║
+║                                                                              ║
+║                  222 tools  ·  22 categories  ·  arch linux                  ║
+║                                                                              ║
+║             ◢◤  L A S T   S Y N C  ▸  2 9 · O C T · 2 0 2 6  ◥◣              ║
+║                                                                              ║
+╠══════════════════════════════════════════════════════════════════════════════╣
+║            [ npc@arch ~ ]$ open https://github.com/NPCmillionaire            ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+┌─ INSTALL ────────────────────────────────────────────────────────────────────┐
+│  pkg  →  sudo pacman -S <name>   (or: yay -S / BlackArch repo)               │
+│  pip  →  pipx install <name>                                                 │
+│  go   →  go install <path>                                                   │
+│  git  →  git clone <url> ~/tools/<name>                                      │
+└──────────────────────────────────────────────────────────────────────────────┘
+
+┌─ INDEX ──────────────────────────────────────────────────────────────────────┐
+│  01  👤 Username & Social Media ······································ [ 29] │
+│  02  📧 Email & Phone ················································ [ 12] │
+│  03  🧑 People & Identity ············································ [  5] │
+│  04  🌐 Domain, DNS & Subdomains ····································· [ 12] │
+│  05  🔗 Web Recon, Crawling & Fuzzing ································ [ 22] │
+│  06  🔌 Network Scanning & Sniffing ·································· [ 11] │
+│  07  📶 Wireless ····················································· [  7] │
+│  08  💣 Vulnerability & Exploitation ································· [  9] │
+│  09  🤖 Recon Automation & Pipelines ································· [  7] │
+│  10  🔭 Search Engines & Dorking ····································· [  9] │
+│  11  📷 Image & Facial Recognition ··································· [  5] │
+│  12  📄 Documents, Metadata & Forensics ······························ [  9] │
+│  13  💧 Breaches, Leaks & Secrets ···································· [  4] │
+│  14  🔑 Passwords & Credentials ······································ [ 10] │
+│  15  🎣 Social Engineering & Phishing ································ [ 10] │
+│  16  📱 Mobile & Android ············································· [  6] │
+│  17  🧅 Dark Web & Tor ··············································· [  4] │
+│  18  💰 Finance, Corporate & Crypto ·································· [ 11] │
+│  19  📜 Government & Public Records ·································· [ 16] │
+│  20  🦠 Threat Intel & Malware ······································· [  3] │
+│  21  🧰 Frameworks & All-in-One ······································ [  9] │
+│  22  🔒 Privacy, VPN & Anonymity ····································· [ 12] │
+└──────────────────────────────────────────────────────────────────────────────┘
+
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ 01 │ 👤 Username & Social Media ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 29 tools ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+  ├─ Arctic Shift         git  https://github.com/ArthurHeitmann/arctic_shift.git   # Reddit historical data archive
+  ├─ Blackbird            git  https://github.com/antoniaci/blackbird.git           # username search across sites
+  ├─ github_monitor       git  https://github.com/misiektoja/github_monitor.git     # watch a GitHub user's activity
+  ├─ Gitrecon             git  https://github.com/GONZOsint/gitrecon.git            # scrape emails from git commits
+  ├─ GoSearch             go   github.com/ibnaleem/gosearch@latest                  # fast username lookup
+  ├─ insta-dl             pip  instagram-dl                                         # download Instagram media
+  ├─ instagram_monitor    git  https://github.com/misiektoja/instagram_monitor.git  # track an Instagram account
+  ├─ Instaloader          pip  instaloader                                          # download Instagram posts/stories
+  ├─ insto                pip  insto                                                # Instagram profile recon
+  ├─ Investigo            go   github.com/tdh8316/investigo@latest                  # username hunt across sites
+  ├─ Maigret              pip  maigret                                              # deep username profiling
+  ├─ NExfil               pip  nexfil                                               # find profiles by username
+  ├─ OSRFramework         pip  osrframework                                         # username/email/domain recon suite
+  ├─ Seekr                git  https://github.com/seekr-osint/seekr.git             # OSINT data aggregation GUI
+  ├─ Sherlock             pip  sherlock-project                                     # hunt usernames across sites
+  ├─ Snoop                pip  snoop                                                # username search (CIS focus)
+  ├─ snscrape             pip  snscrape                                             # scrape social media posts
+  ├─ Social Analyzer      pip  social-analyzer                                      # profile finder + analysis
+  ├─ socialscan           pip  socialscan                                           # email/username availability
+  ├─ Socid-extractor      pip  socid-extractor                                      # extract IDs from profiles
+  ├─ Telegram Nearby Map  git  https://github.com/tejado/telegram-nearby-map.git    # map nearby Telegram users
+  ├─ Telepathy            pip  telepathy                                            # Telegram chat analysis
+  ├─ Telerecon            git  https://github.com/sockysec/Telerecon.git            # Telegram recon framework
+  ├─ Telethon             pip  telethon                                             # Telegram API client lib
+  ├─ TOsint               git  https://github.com/drego85/tosint.git                # Telegram OSINT toolkit
+  ├─ Toutatis             pip  toutatis                                             # Instagram account details
+  ├─ Twayback             git  https://github.com/humandecoded/twayback.git         # recover deleted tweets
+  ├─ user-scanner         git  https://github.com/kaifcodec/user-scanner.git        # multi-site username scan
+  └─ UserRecon            git  https://github.com/wishihab/userrecon.git            # username across 75 networks (archived)
+
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ 02 │ 📧 Email & Phone ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 12 tools ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+  ├─ EmailAnalyzer         git  https://github.com/keraattin/EmailAnalyzer.git                      # analyze email headers/body
+  ├─ EmailHeader-Analyzer  git  https://github.com/Giritharram/EmailHeader-Analyzer-CLI-Python.git  # parse email headers CLI
+  ├─ GHunt                 pip  ghunt                                                               # investigate Google accounts
+  ├─ Holehe                pip  holehe                                                              # check which sites an email is registered on
+  ├─ Ignorant              pip  ignorant                                                            # check phone on signups
+  ├─ MailHeaderDetective   git  https://github.com/akajhon/MailHeaderDetective.git                  # email header forensics
+  ├─ mailtoanalyzer        git  https://github.com/soxoj/mailto_analyzer.git                        # mailto link analyzer
+  ├─ PhoneInfoga           pip  phoneinfoga                                                         # phone number OSINT
+  ├─ Prowl                 git  https://github.com/nettitude/Prowl.git                              # LinkedIn + email harvester
+  ├─ theHarvester          git  https://github.com/laramies/theHarvester.git                        # emails/subdomains/hosts recon
+  ├─ WhatMail              git  https://github.com/z0m31en7/WhatMail.git                            # email header analyzer
+  └─ Zehef                 git  https://github.com/N0rz3/Zehef.git                                  # email OSINT tracker
+
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ 03 │ 🧑 People & Identity ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 5 tools ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+  ├─ CrossLinked        pip  crosslinked                                          # LinkedIn name scraper
+  ├─ DaProfiler         git  https://github.com/daprofiler/DaProfiler.git         # person profiling (archived)
+  ├─ linkedin2username  git  https://github.com/initstring/linkedin2username.git  # build usernames from LinkedIn
+  ├─ LinkedInDumper     git  https://github.com/l4rm4nd/LinkedInDumper.git        # pull LinkedIn company employees
+  └─ Mr.Holmes          git  https://github.com/Lucksi/Mr.Holmes.git              # person/domain/phone OSINT
+
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ 04 │ 🌐 Domain, DNS & Subdomains ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 12 tools ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+  ├─ altdns         pip  py-altdns                                                      # generate subdomain permutations
+  ├─ Amass          go   github.com/owasp-amass/amass/v5/...@latest                     # subdomain enumeration
+  ├─ assetfinder    go   github.com/tomnomnom/assetfinder@latest                        # find domains/subdomains
+  ├─ dnsrecon       pip  dnsrecon                                                       # DNS enumeration
+  ├─ dnstwist       pip  dnstwist                                                       # typosquat/phishing domains
+  ├─ Findomain      git  https://github.com/Findomain/Findomain.git                     # fast subdomain finder
+  ├─ IPGeoLocation  git  https://github.com/maldevel/IPGeoLocation.git                  # geolocate IP addresses
+  ├─ Knockpy        pip  knock-subdomains                                               # subdomain enumeration
+  ├─ massdns        git  https://github.com/blechschmidt/massdns.git                    # bulk DNS resolver
+  ├─ Subfinder      go   github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest  # passive subdomain finder
+  ├─ Sublist3r      pip  sublist3r                                                      # subdomain enumeration
+  └─ URLCrazy       git  https://github.com/urbanadventurer/urlcrazy.git                # typosquat domain generator
+
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ 05 │ 🔗 Web Recon, Crawling & Fuzzing ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 22 tools ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+  ├─ Dirb              pkg  dirb                                                  # web content brute-forcer
+  ├─ dirsearch         pip  dirsearch                                             # web path scanner
+  ├─ Feroxbuster       pkg  feroxbuster                                           # fast content discovery
+  ├─ ffuf              go   github.com/ffuf/ffuf/v2@latest                        # web fuzzer
+  ├─ gau (getallurls)  go   github.com/lc/gau/v2/cmd/gau@latest                   # fetch known URLs
+  ├─ gf                go   github.com/tomnomnom/gf@latest                        # grep wrapper for patterns
+  ├─ Gobuster          go   github.com/OJ/gobuster/v3@latest                      # dir/DNS/vhost brute-forcer
+  ├─ GoSpider          go   github.com/jaeles-project/gospider@latest             # fast web crawler
+  ├─ gowitness         go   github.com/sensepost/gowitness@latest                 # web screenshot tool
+  ├─ hakrawler         go   github.com/hakluke/hakrawler@latest                   # fast endpoint crawler
+  ├─ httprobe          go   github.com/tomnomnom/httprobe@latest                  # probe for live HTTP
+  ├─ HTTPx             go   github.com/projectdiscovery/httpx/cmd/httpx@latest    # fast HTTP toolkit
+  ├─ JSFinder          git  https://github.com/Threezh1/JSFinder.git              # extract URLs from JS
+  ├─ Katana            go   github.com/projectdiscovery/katana/cmd/katana@latest  # next-gen web crawler
+  ├─ LinkFinder        git  https://github.com/GerbenJavado/LinkFinder.git        # find endpoints in JS
+  ├─ meg               go   github.com/tomnomnom/meg@latest                       # fetch many paths fast
+  ├─ ParamSpider       git  https://github.com/devanshbatham/ParamSpider.git      # mine URL parameters
+  ├─ Photon            git  https://github.com/s0md3v/Photon.git                  # fast web crawler
+  ├─ waybackurls       go   github.com/tomnomnom/waybackurls@latest               # fetch Wayback URLs
+  ├─ WebHack           git  https://github.com/yan4ikyt/webhack.git               # website info gathering
+  ├─ Wfuzz             pip  wfuzz                                                 # web application fuzzer
+  └─ Whatweb           pkg  whatweb                                               # web tech fingerprinter
+
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ 06 │ 🔌 Network Scanning & Sniffing ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 11 tools ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+  ├─ Bettercap  pkg  bettercap                                              # network MITM framework
+  ├─ Ettercap   pkg  ettercap                                               # MITM/sniffing suite
+  ├─ Masscan    pkg  masscan                                                # internet-scale port scan
+  ├─ Naabu      go   github.com/projectdiscovery/naabu/v2/cmd/naabu@latest  # fast port scanner
+  ├─ Netcat     pkg  openbsd-netcat                                         # TCP/UDP swiss army knife
+  ├─ Nmap       pkg  nmap                                                   # network/port scanner
+  ├─ Responder  git  https://github.com/lgandx/Responder.git                # LLMNR/NBT-NS poisoner
+  ├─ RustScan   git  https://github.com/bee-san/RustScan.git                # ultra-fast port scanner
+  ├─ smap       go   github.com/s0md3v/smap/cmd/smap@latest                 # Shodan-powered nmap
+  ├─ tcpdump    pkg  tcpdump                                                # packet capture CLI
+  └─ Wireshark  pkg  wireshark-qt                                           # packet analyzer GUI
+
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ 07 │ 📶 Wireless ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 7 tools ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+  ├─ Aircrack-ng        pkg  aircrack-ng                                    # WiFi WEP/WPA cracking
+  ├─ Fern Wifi Cracker  pkg  fern-wifi-cracker                              # WiFi cracking GUI
+  ├─ Fluxion            git  https://github.com/FluxionNetwork/fluxion.git  # WiFi evil-twin attack
+  ├─ hcxtools           pkg  hcxtools                                       # WiFi handshake capture
+  ├─ Kismet             pkg  kismet                                         # wireless sniffer/IDS
+  ├─ Reaver             pkg  reaver                                         # WPS PIN attack
+  └─ Wifite             pkg  wifite                                         # automated WiFi attacks
+
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ 08 │ 💣 Vulnerability & Exploitation ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 9 tools ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+  ├─ Commix      git  https://github.com/commixproject/commix.git              # command injection exploit
+  ├─ GoldenEye   git  https://github.com/jseidl/GoldenEye.git                  # HTTP load tester (own servers only) (archived)
+  ├─ Metasploit  pkg  metasploit                                               # exploitation framework
+  ├─ MSFPC       git  https://github.com/g0tmi1k/msfpc.git                     # Metasploit payload generator
+  ├─ Nikto       pkg  nikto                                                    # web server scanner
+  ├─ Nuclei      go   github.com/projectdiscovery/nuclei/v3/cmd/nuclei@latest  # template-based vuln scanner
+  ├─ OpenVAS     pkg  openvas                                                  # vulnerability scanner
+  ├─ Sn1per      git  https://github.com/1N3/Sn1per.git                        # automated pentest recon
+  └─ SQLMap      pkg  sqlmap                                                   # SQL injection automation
+
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ 09 │ 🤖 Recon Automation & Pipelines ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 7 tools ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+  ├─ anew       go   github.com/tomnomnom/anew@latest                # append unique lines
+  ├─ AutoRecon  pip  git+https://github.com/AutoRecon/AutoRecon.git  # automated multi-service recon
+  ├─ Axiom      git  https://github.com/pry0cc/axiom.git             # cloud scanning fleet
+  ├─ BBOT       pip  bbot                                            # recursive OSINT scanner
+  ├─ Interlace  git  https://github.com/codingo/Interlace.git        # parallelize any command
+  ├─ osmedeus   git  https://github.com/j3ssie/osmedeus.git          # recon automation framework
+  └─ reconFTW   git  https://github.com/six2dez/reconftw.git         # full recon automation
+
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ 10 │ 🔭 Search Engines & Dorking ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 9 tools ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+  ├─ Censys CLI     pip  censys                                                  # internet asset search
+  ├─ dork-cli       git  https://github.com/jgor/dork-cli.git                    # Google dork CLI
+  ├─ GooFuzz        git  https://github.com/m3n0sd0n4ld/GooFuzz.git              # passive Google dorking
+  ├─ GreyNoise CLI  pip  greynoise                                               # internet-noise lookups
+  ├─ Pagodo         git  https://github.com/opsdisk/pagodo.git                   # automate Google dorking
+  ├─ Shodan         pip  shodan                                                  # Shodan search + CLI (internet/IoT devices)
+  ├─ ShodanSpider   git  https://github.com/shubhamrooter/ShodanSpider.git       # Shodan without API key
+  ├─ uncover        go   github.com/projectdiscovery/uncover/cmd/uncover@latest  # query search engines for hosts
+  └─ ZoomEye CLI    pip  zoomeye                                                 # cyberspace device search
+
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ 11 │ 📷 Image & Facial Recognition ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 5 tools ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+  ├─ DeepFace         pip  deepface                                         # face recognition/analysis
+  ├─ Depix            git  https://github.com/spipm/Depixelization_poc.git  # recover pixelated text (archived)
+  ├─ ExifTool         pkg  perl-image-exiftool                              # read/write file metadata
+  ├─ facerecognition  pip  face_recognition                                 # face detect/compare lib
+  └─ Sherloq          git  https://github.com/GuidoBartoli/sherloq.git      # image forgery forensics
+
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ 12 │ 📄 Documents, Metadata & Forensics ━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 9 tools ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+  ├─ Autopsy         pkg  autopsy                                    # digital forensics GUI
+  ├─ Binwalk         pkg  binwalk                                    # firmware analysis/extract
+  ├─ Bulk Extractor  pkg  bulk-extractor                             # carve data from disks
+  ├─ FOCA            git  https://github.com/ElevenPaths/FOCA.git    # document metadata extractor
+  ├─ Foremost        pkg  foremost                                   # file carving/recovery
+  ├─ Metagoofil      git  https://github.com/opsdisk/metagoofil.git  # extract doc metadata
+  ├─ Scalpel         pkg  scalpel                                    # file carving tool
+  ├─ Volatility      pip  volatility3                                # memory forensics
+  └─ xeuledoc        pip  xeuledoc                                   # Google Doc metadata
+
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ 13 │ 💧 Breaches, Leaks & Secrets ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4 tools ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+  ├─ git-hound  go   github.com/tillson/git-hound@latest     # find secrets in GitHub
+  ├─ gitleaks   go   github.com/gitleaks/gitleaks/v8@latest  # scan repos for secrets
+  ├─ h8mail     pip  h8mail                                  # email breach hunting
+  └─ Oblivion   git  https://github.com/loseys/Oblivion.git  # data-leak monitor (archived)
+
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ 14 │ 🔑 Passwords & Credentials ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 10 tools ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+  ├─ CeWL             pkg  cewl                                            # wordlist from a website
+  ├─ Crunch           pkg  crunch                                          # wordlist generator
+  ├─ Cupp             git  https://github.com/Mebus/cupp.git               # profile-based wordlists
+  ├─ Hashcat          pkg  hashcat                                         # GPU password cracker
+  ├─ Hydra            pkg  hydra                                           # network login brute-forcer
+  ├─ John the Ripper  pkg  john                                            # password cracker
+  ├─ LaZagne          git  https://github.com/AlessandroZ/LaZagne.git      # recover local passwords
+  ├─ Medusa           pkg  medusa                                          # parallel login brute-forcer
+  ├─ Mimikatz         git  https://github.com/gentilkiwi/mimikatz.git      # Windows credential dumper
+  └─ SecLists         git  https://github.com/danielmiessler/SecLists.git  # wordlist/payload collection
+
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ 15 │ 🎣 Social Engineering & Phishing ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 10 tools ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+  ├─ AdvPhishing                       git  https://github.com/Ignitetch/AdvPhishing.git               # phishing page toolkit
+  ├─ Evilginx2                         go   github.com/kgretzky/evilginx2@latest                       # MITM phishing proxy
+  ├─ Modlishka                         go   github.com/drk1wi/Modlishka@latest                         # reverse-proxy phishing
+  ├─ NexPhisher                        git  https://github.com/htr-tech/nexphisher.git                 # phishing toolkit (archived)
+  ├─ Seeker                            git  https://github.com/thewhiteh4t/seeker.git                  # geolocate via phishing link
+  ├─ SET (Social Engineering Toolkit)  git  https://github.com/trustedsec/social-engineer-toolkit.git  # social-engineering framework
+  ├─ SocialFish                        git  https://github.com/UndeadSec/SocialFish.git                # phishing + info harvest
+  ├─ Storm-Breaker                     git  https://github.com/ultrasecurity/Storm-Breaker.git         # grab camera/location/mic
+  ├─ URLCADIZ                          git  https://github.com/PerezMascato/URLCADIZ.git               # generate phishing links
+  └─ Zphisher                          git  https://github.com/htr-tech/zphisher.git                   # automated phishing tool
+
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ 16 │ 📱 Mobile & Android ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 6 tools ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+  ├─ AhMyth Android RAT  git  https://github.com/AhMyth/AhMyth-Android-RAT.git  # Android remote access tool (archived)
+  ├─ Apktool             pkg  android-apktool                                   # reverse-engineer APKs
+  ├─ Frida               pip  frida-tools                                       # dynamic instrumentation
+  ├─ jadx                pkg  jadx                                              # decompile Android APKs
+  ├─ Objection           pip  objection                                         # runtime mobile exploration
+  └─ PhoneSploit         git  https://github.com/prbhtkumr/PhoneSploit.git      # remote Android via ADB
+
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ 17 │ 🧅 Dark Web & Tor ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4 tools ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+  ├─ OnionScan    go   github.com/s-rah/onionscan@latest               # audit onion services
+  ├─ OnionSearch  pip  onionsearch                                     # search dark-web engines
+  ├─ OSINT-SPY    git  https://github.com/SharadKumar97/OSINT-SPY.git  # multi-target OSINT
+  └─ TorghostNG   git  https://github.com/Zopolis4/TorghostNG.git      # route traffic through Tor
+
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ 18 │ 💰 Finance, Corporate & Crypto ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 11 tools ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+  ├─ edgartools            pip  edgartools                                        # SEC filings, insider trades, 13F holdings
+  ├─ ethereum-etl          pip  ethereum-etl                                      # export Ethereum chain data
+  ├─ etherscan-py          pip  etherscan-python                                  # Ethereum chain queries
+  ├─ finvizfinance         pip  finvizfinance                                     # Finviz screener, news, insider data
+  ├─ GraphSense            git  https://github.com/graphsense/graphsense-lib.git  # crypto transaction tracing
+  ├─ OpenBB                pip  openbb                                            # market + financial data platform
+  ├─ opencorporates-cli    git  https://github.com/skickar/OpenCorporatesCLI.git  # company registry lookup
+  ├─ Orbit                 git  https://github.com/s0md3v/Orbit.git               # blockchain transaction graphing
+  ├─ sec-edgar-downloader  pip  sec-edgar-downloader                              # bulk-download SEC filings
+  ├─ yente                 git  https://github.com/opensanctions/yente.git        # sanctions/PEP screening (OpenSanctions)
+  └─ yfinance              pip  yfinance                                          # Yahoo Finance prices/fundamentals
+
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ 19 │ 📜 Government & Public Records ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 16 tools ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+  ├─ capitol-cli           git  https://github.com/NPCmillionaire/capitol-cli.git         # `capitol` cmd: House stock trades, late flags, alerts
+  ├─ capitolgains          pip  capitolgains                                              # scrape House/Senate financial disclosures
+  ├─ census                pip  census                                                    # US Census Bureau API wrapper
+  ├─ ckanapi               pip  ckanapi                                                   # query data.gov & other CKAN portals
+  ├─ congress              git  https://github.com/unitedstates/congress.git              # bills, votes, amendments data
+  ├─ congress-legislators  git  https://github.com/unitedstates/congress-legislators.git  # members, committees, social IDs
+  ├─ fecfile               pip  fecfile                                                   # parse FEC campaign-finance filings
+  ├─ govinfo               pip  govinfo                                                   # GPO GovInfo: Fed Register, CFR, bills
+  ├─ irsx                  pip  irsx                                                      # parse nonprofit IRS 990 filings
+  ├─ juriscraper           pip  juriscraper                                               # court opinions/dockets + PACER client
+  ├─ openstates-scrapers   git  https://github.com/openstates/openstates-scrapers.git     # state legislature bills/votes/people
+  ├─ python-muckrock       pip  python-muckrock                                           # search/file FOIA requests (MuckRock)
+  ├─ quiverquant           pip  quiverquant                                               # congress trades, lobbying, gov contracts (API key)
+  ├─ RECAP                 git  https://github.com/freelawproject/recap-chrome.git        # browser ext: free PACER docs, auto-shares buys
+  ├─ recap-cli             git  https://github.com/NPCmillionaire/recap-cli.git           # `recap` cmd: search/download RECAP from terminal
+  └─ waybackpack           pip  waybackpack                                               # download a site's full Wayback history
+
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ 20 │ 🦠 Threat Intel & Malware ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3 tools ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+  ├─ MISP    git  https://github.com/MISP/MISP.git        # threat-intel sharing platform
+  ├─ Mitaka  git  https://github.com/ninoseki/mitaka.git  # IOC search browser tool
+  └─ YARA    pkg  yara                                    # malware pattern matching
+
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ 21 │ 🧰 Frameworks & All-in-One ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 9 tools ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+  ├─ FinalRecon   git  https://github.com/thewhiteh4t/FinalRecon.git  # all-in-one web recon
+  ├─ fsociety     git  https://github.com/Manisso/fsociety.git        # pentest tool collection
+  ├─ Hackingtool  git  https://github.com/Z4nzu/hackingtool.git       # all-in-one hacking menu
+  ├─ Harpoon      pip  harpoon                                        # OSINT CLI toolkit
+  ├─ Maltego      pkg  maltego                                        # link-analysis graphs
+  ├─ OSINT-SAN    git  https://github.com/Bafomet666/OSINT-SAN.git    # OSINT framework
+  ├─ Recon-ng     git  https://github.com/lanmaster53/recon-ng.git    # modular recon framework
+  ├─ sn0int       pkg  sn0int                                         # semi-auto OSINT framework
+  └─ SpiderFoot   git  https://github.com/smicallef/spiderfoot.git    # automated OSINT engine
+
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ 22 │ 🔒 Privacy, VPN & Anonymity ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 12 tools ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+  ├─ Algo VPN         git  https://github.com/trailofbits/algo.git         # self-hosted VPN setup
+  ├─ Anon-SMS         git  https://github.com/HACK3RY2J/Anon-SMS.git       # disposable SMS numbers
+  ├─ Anonsurf         git  https://github.com/Und3rf10w/kali-anonsurf.git  # route system through Tor
+  ├─ BleachBit        pkg  bleachbit                                       # clean/shred files
+  ├─ MAC Changer      pkg  macchanger                                      # spoof MAC address
+  ├─ Mullvad VPN      pkg  mullvad-vpn                                     # privacy VPN client
+  ├─ OpenVPN          pkg  openvpn                                         # VPN client/server
+  ├─ Proton VPN Free  pip  protonvpn-cli                                   # free privacy VPN
+  ├─ RiseupVPN        pkg  riseup-vpn                                      # free activist VPN
+  ├─ Tor Browser      pkg  torbrowser-launcher                             # anonymous web browser
+  ├─ VeraCrypt        pkg  veracrypt                                       # disk/file encryption
+  └─ WireGuard        pkg  wireguard-tools                                 # fast modern VPN

@@ -9,12 +9,12 @@
 ║                                                                              ║
 ║                    ▀▄▀▄▀▄   T  O  O  L  K  I  T   ▄▀▄▀▄▀                     ║
 ║                                                                              ║
-║                  222 tools  ·  22 categories  ·  arch linux                  ║
+║               222 tools  ·  22 categories  ·  eyes everywhere                ║
 ║                                                                              ║
 ║             ◢◤  L A S T   S Y N C  ▸  2 9 · O C T · 2 0 2 6  ◥◣              ║
 ║                                                                              ║
 ╠══════════════════════════════════════════════════════════════════════════════╣
-║            [ npc@arch ~ ]$ open https://github.com/NPCmillionaire            ║
+║          cam@legitbiz >>> $ open https://github.com/npcmillionaire           ║
 ╚══════════════════════════════════════════════════════════════════════════════╝
 
 ┌─ INSTALL ────────────────────────────────────────────────────────────────────┐

@@ -17,11 +17,12 @@
 ║          cam@legitbiz >>> $ open https://github.com/npcmillionaire           ║
 ╚══════════════════════════════════════════════════════════════════════════════╝
 
-  A personal field kit for open-source intelligence: 222 tools for tracing
-  usernames, emails, domains, networks, documents and public records, plus
-  the privacy gear to do it quietly. Each entry lists the tool, how to install
-  it, where it lives, and what it's for. Know your scope, stay legal, and
-  verify everything twice.
+  Every OSINT tool on GitHub promises to "find anyone, anywhere." Most were
+  abandoned in 2019, half want a $49/month API key before they'll say hello,
+  and the rest are a README, a cool logo, and a requirements.txt that hasn't
+  installed since Python 3.6. These are the 222 that survived. They mostly
+  work. Some are archived. At least one will break the exact second you need
+  it. Trust nothing, especially this list.
 
 ┌─ INSTALL ────────────────────────────────────────────────────────────────────┐
 │  pkg  →  sudo pacman -S <name>   (or apt, rpm, yay, whatever)                │

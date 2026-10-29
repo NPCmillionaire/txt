@@ -24,7 +24,7 @@
   verify everything twice.
 
 ┌─ INSTALL ────────────────────────────────────────────────────────────────────┐
-│  pkg  →  sudo pacman -S <name>   (or: yay -S / BlackArch repo)               │
+│  pkg  →  sudo pacman -S <name>   (or apt, rpm, yay, whatever)                │
 │  pip  →  pipx install <name>                                                 │
 │  go   →  go install <path>                                                   │
 │  git  →  git clone <url> ~/tools/<name>                                      │
